@@ -10,6 +10,7 @@ import javax.swing.JFrame;
 import javax.swing.JList;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.ListCellRenderer;
 import javax.swing.WindowConstants;
 
 /**
@@ -31,6 +32,11 @@ public class JLIst1 {
         JScrollPane scrollPane=new JScrollPane();
         JList list=new JList(new String[]{"a","b","c","a","b","c","a","b","c","a","b","c","a","b","c","a","b","c","a","b","c"});
         scrollPane.getViewport().add(list);
+        
+   
+        
+        });
+        
         
         //////////////////////////////////////////
         frame.add(scrollPane);
